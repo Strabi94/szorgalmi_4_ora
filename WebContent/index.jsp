@@ -14,19 +14,12 @@ request.setAttribute( "nevek", new String[]{"Béla","István","Dávid"} );
 
 
 <c:forEach items="${nevek}" var="nev" varStatus="loop">
-	<c:out value="${nev}"/> <br/>
+	Hello 
+	<c:out value="${nev}"/> 
+	!<br/>
 </c:forEach>
 
 
-
-<% for(int i=0; i<10; i++){ %>
-	Számol <%=i %> <br/> 
-<%} %>
-
-
-<c:forEach begin="0" end="10" var="i">
-	Számol <c:out value="${i}"/> <br/>
-</c:forEach>
 
 
 
